@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_hmk5QJd3Ee-a-bqv21a9Og" targetNamespace="http://tns.tibco.com/bw/composite/git-demo" name="git-demo" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_lHgpYJd3Ee-a-bqv21a9Og" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_lH7gIJd3Ee-a-bqv21a9Og" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_lIC04Jd3Ee-a-bqv21a9Og" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_lIKJoJd3Ee-a-bqv21a9Og" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_lIQ3UJd3Ee-a-bqv21a9Og" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_lIXlAJd3Ee-a-bqv21a9Og" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_lIaoUJd3Ee-a-bqv21a9Og" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_i4tPgJd3Ee-a-bqv21a9Og" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_i4tPgZd3Ee-a-bqv21a9Og" processName="git-demo.Process"/>
+  </sca:component>
+</sca:composite>
